@@ -22,7 +22,7 @@ Rscript extract_fasta.R -i <input_bam> -o <output_fasta> -r <region>
 ```
 
 Example:
-CopyRscript extract_fasta.R -i sample.bam -o extracted_sequences.fasta -r chr1:100000-100100
+Rscript extract_fasta.R -i sample.bam -o extracted_sequences.fasta -r chr1:100000-100100
 
 The script will extract the sequences from the specified region and save them in your output FASTA file.
 
