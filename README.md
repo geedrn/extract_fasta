@@ -15,13 +15,11 @@ Run the script using this command:
 
 ```r=
 Rscript extract_fasta.R -i <input_bam> -o <output_fasta> -r <region>
-```
-
-Where:
 
 <input_bam> is your input BAM file
 <output_fasta> is the name for your output FASTA file
 <region> is the genomic region of interest (format: chr:start-end)
+```
 
 Example:
 CopyRscript extract_fasta.R -i sample.bam -o extracted_sequences.fasta -r chr1:100000-100100
